@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    box-sizing: border-box;
+    position: relative;
+    
+
+}
+
+div {
+    text-align: center;
+    
+}
+
+.gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    height: 70vh;
+    background-position: center;
+
+}
+
+.item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+
+}
+
+.item:hover {
+    flex: 7;
+
+}
+
+.item-1 {
+    background-image: url(./Img/imagem_2022_06_29_193659999__inj022w2-760x950.png);
+}
+
+.item-2 {
+    background-image: url(./Img/imagem_2022_06_29_193730106__ygm7803-760x950.png);
+}
+
+.item-3 {
+    background-image: url(./Angrboda);
+}
+
+.item-4 {
+    background-image: url(./Img/Freya.jpg);
+}
+
+.item-5 {
+    background-image: url(./Img/Brok.jpg);
+}
+
+.item-6 {
+    background-image: url(./Img/Durlin.png);
+}
+
+.item-7 {
+    background-image: url(./Img/Fenri.jpg);
+}
+
+.item-8 {
+    background-image: url(./Img/Mimir.webp);
+}
+
+.item-9 {
+    background-image: url(./Img/Odin.jpg);
+}
+
+.item-10 {
+    background-image: url(./Img/thor.jpg);
+}
+
+.item-11 {
+    background-image: url(./Img/Tyr.jpg);
+}
